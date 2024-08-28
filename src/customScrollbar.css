@@ -1,0 +1,19 @@
+/* customScrollbar.css */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #B0BEC5 #E0F2F1; /* Light grey thumb and very light grey track */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #E0F2F1; /* Very light grey */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #B0BEC5; /* Light grey */
+  border-radius: 20px;
+  border: 3px solid #E0F2F1; /* Matching track color for consistency */
+}

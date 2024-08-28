@@ -1,0 +1,61 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#F2F6FB];
+}
+    
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Decreased width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #a0aec0; /* Thumb color */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* Track color */
+  border-radius: 4px;
+}
+
+  
+
+  .glow-border {
+    border: 2px solid #4F46E5; /* Tailwind's indigo-500 color */
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.5); /* Tailwind's indigo-500 shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .glow-border:hover {
+    box-shadow: 0 0 15px rgba(79, 70, 229, 0.8); /* Brighter shadow on hover */
+  }
+  
+  /* Pulsing Glow Animation */
+  @keyframes pulseGlow {
+    0% {
+      box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 15px rgba(79, 70, 229, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+    }
+  }
+  
+  .animation-pulse-glow {
+    animation: pulseGlow 2s infinite;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .overflow-x-auto {
+    -ms-overflow-style: none; /* for IE and Edge */
+    scrollbar-width: none; /* for Firefox */
+  }
