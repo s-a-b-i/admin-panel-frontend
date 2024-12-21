@@ -1,8 +1,11 @@
-# React + Vite
+Here's a shorter, more focused version of the README:
+CSoft Admin Panel Frontend
+This repository houses the frontend code for CSoft's admin panel, a web-based interface for managing our software development projects, team members, and client interactions.
+Key Features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project and team management
+Client communication tracking
+Task assignment and resource allocation
+Analytics dashboard
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack: React.js, Redux, Material-UI, Axios, Chart.js
