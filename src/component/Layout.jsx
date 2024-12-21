@@ -1,7 +1,7 @@
 // src/components/Layout.jsx
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
-import Header from './Header';
+import Sidebar from './SideBar.jsx';
+import Header from './Header.jsx';
 import '../customScrollbar.css';
 
 const Layout = ({ children }) => {
