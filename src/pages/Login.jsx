@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { updateUserProfile } from '../store/slices/userSlice';
 import Form2 from '../content/Login/Form2.svg';
-import Logo from '../content/Logo2.svg';
+// import Logo from '../content/Logo2.svg';
 
 const Login = () => {
   const dispatch = useDispatch();
