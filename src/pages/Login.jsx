@@ -31,7 +31,7 @@ const Login = () => {
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            src={Logo} 
+            src="/Logo2.svg" 
             alt="Institute Logo" 
             className="h-8 md:h-10 mb-6" 
           />
