@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Admin-Panel
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    env: static
